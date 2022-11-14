@@ -33,3 +33,9 @@ div.appendChild(paragraph2);
 
 container.appendChild(div);
 
+
+const btn = document.querySelector('#btn');
+btn.addEventListener('click', function (e) {
+    e.target.style.background = 'blue'
+  });
+
